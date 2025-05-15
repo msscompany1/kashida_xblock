@@ -1,0 +1,52 @@
+.kashida-layout {
+    display: flex;
+    gap: 1em;
+}
+
+.image-left .image-region {
+    order: 0;
+}
+
+.image-left .text-region {
+    order: 1;
+}
+
+.image-right .image-region {
+    order: 1;
+}
+
+.image-right .text-region {
+    order: 0;
+}
+
+.editor-region {
+    border: 1px dashed #ccc;
+    min-height: 150px;
+    padding: 10px;
+    flex: 1;
+}
+.kashida-view {
+  display: flex;
+  gap: 1rem;
+}
+
+.image-region,
+.text-region {
+  border: 1px dashed #ccc;
+  padding: 10px;
+  min-height: 100px;
+  flex: 1;
+}
+
+.kashida-view.image-left .image-region {
+  order: 0;
+}
+.kashida-view.image-left .text-region {
+  order: 1;
+}
+.kashida-view.image-right .image-region {
+  order: 1;
+}
+.kashida-view.image-right .text-region {
+  order: 0;
+}
